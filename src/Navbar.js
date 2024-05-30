@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar(){
     return(
         <nav>
-            <h2>Shofco</h2>
+            <h2>County <span>Government</span></h2>
             <div className="navlinks">
                 <ul>
                     <li><a href="/">Home</a></li>
