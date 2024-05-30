@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: beige;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 100%;
+    position: fixed;
+}
+.navlinks>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.navlinks>ul>li{
+    list-style: none;
+}
+.navlinks>ul>li>a{
+    text-decoration: none;
+    padding: 20px;
+    transition: color 0.4s ease-in;
+}
+.navlinks>ul>li>a:hover{
+    background-color: orange;
+    color: white;
+}
