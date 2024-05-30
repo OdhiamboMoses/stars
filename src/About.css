@@ -24,8 +24,10 @@
 @media (max-width:550px){
     .about-cont{
         flex-wrap: wrap;
+        height: auto;
     }
     .about-cont img{
         width: 100%;
+        margin-bottom: 2%;
     }
 }
