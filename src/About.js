@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function About(){
     return(
         <>
-            <div className="about-cont">
+            <div className="about-cont" id="about">
                 <div className="about-paragraph">
                     <h2>About</h2>
                     <p>

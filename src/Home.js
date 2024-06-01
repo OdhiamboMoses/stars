@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Button from "./Button";
 import Services from "./Services";
+import Contact from "./Contact";
 
 function Home(){
     return(
@@ -18,6 +19,7 @@ function Home(){
             </section>
             <About />
             <Services />
+            <Contact />
         </div>
     );
 }

@@ -32,12 +32,15 @@ nav span{
     background-color: orange;
     color: white;
 }
-.hum-icon {
+.hum-icon{
     height: 50px;
     width: 50px;
     color: black;
     font-size: 3rem;
     display: none;
+}
+.hum{
+    font-size: xx-large;
 }
 @media (max-width:550px){
     .navlinks{
@@ -45,5 +48,31 @@ nav span{
     }
     .hum-icon {
         display: block;
+        height: auto;
+        margin-bottom: 3%;
+    }
+    .hum-icon:hover{
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        height: auto;
+        padding-bottom: 10px;
+        position: relative;
+        align-items: first baseline;
+    }
+    .hum-links{
+        font-size: large;
+        margin-top: 3%;
+        width: 140px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .hum-links>ul>li{
+        list-style: none;
+    }
+    .hum-links>ul>li>a{
+        text-decoration: none;
     }
 }

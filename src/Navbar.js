@@ -8,12 +8,21 @@ function Navbar(){
             <div className="navlinks">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact-Us</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact-Us</a></li>
                 </ul>
             </div>
             <div className="hum-icon">
-                <span><i class="fa-solid fa-bars"></i></span>
+                <span className="hum"><i class="fa-solid fa-bars"></i></span>
+                <div className="hum-links">
+                    <ul>
+                        <li><a href="./">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact-Us</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     );
