@@ -3,6 +3,7 @@ import './Home.css';
 import Navbar from "./Navbar";
 import About from "./About";
 import Button from "./Button";
+import Services from "./Services";
 
 function Home(){
     return(
@@ -16,6 +17,7 @@ function Home(){
                 <Button text="Click for more"/>
             </section>
             <About />
+            <Services />
         </div>
     );
 }
