@@ -32,8 +32,18 @@ nav span{
     background-color: orange;
     color: white;
 }
+.hum-icon {
+    height: 50px;
+    width: 50px;
+    color: black;
+    font-size: 3rem;
+    display: none;
+}
 @media (max-width:550px){
     .navlinks{
         display: none;
+    }
+    .hum-icon {
+        display: block;
     }
 }

@@ -12,6 +12,9 @@ function Navbar(){
                     <li><a href="/">Contact-Us</a></li>
                 </ul>
             </div>
+            <div className="hum-icon">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
         </nav>
     );
 }

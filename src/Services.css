@@ -15,3 +15,8 @@
     align-items: center;
     margin-top: 4%;
 }
+@media (max-width:850px){
+    .cards {
+        flex-wrap: wrap;
+    }
+}

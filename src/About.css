@@ -21,7 +21,7 @@
 .about-paragraph p{
     text-align: justify;
 }
-@media (max-width:550px){
+@media (max-width:750px){
     .about-cont{
         flex-wrap: wrap;
         height: auto;
