@@ -4,7 +4,7 @@ import './Contact.css';
 function Contact(){
     return(
         <>
-            <div className="services" id="services">
+            <div className="contact" id="contact">
 
             </div>
         </>

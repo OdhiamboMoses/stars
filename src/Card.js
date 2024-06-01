@@ -16,7 +16,7 @@ function Card(props){
                     </p>
                     <div className="card-footer">
                         <h4>Ksh. {props.price}</h4>
-                        <button className="card-btn">Buy</button>
+                        <button className="card-btn">Book</button>
                     </div>
                 </div>
             </div> 

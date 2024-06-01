@@ -11,11 +11,13 @@
     transition: background 1.4s ease;
 }
 .card-image img{
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 50%;
+    background-color: white;
+    padding: 16px;
 }
 .card {
     display: flex;
