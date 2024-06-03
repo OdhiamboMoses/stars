@@ -5,6 +5,7 @@ import About from "./About";
 import Button from "./Button";
 import Services from "./Services";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Home(){
     return(
@@ -20,6 +21,7 @@ function Home(){
             <About />
             <Services />
             <Contact />
+            <Footer />
         </div>
     );
 }

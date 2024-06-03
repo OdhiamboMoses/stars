@@ -42,7 +42,7 @@ nav span{
 .hum{
     font-size: xx-large;
 }
-@media (max-width:550px){
+@media (max-width:650px){
     .navlinks{
         display: none;
     }

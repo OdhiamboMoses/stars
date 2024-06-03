@@ -14,7 +14,7 @@ function Navbar(){
                 </ul>
             </div>
             <div className="hum-icon">
-                <span className="hum"><i class="fa-solid fa-bars"></i></span>
+                <span className="hum"><i className="fa-solid fa-bars"></i></span>
                 <div className="hum-links">
                     <ul>
                         <li><a href="./">Home</a></li>
@@ -29,3 +29,13 @@ function Navbar(){
 }
 
 export default Navbar;
+
+// let humlinkBtn = document.getElementsByClassName("hum-links");
+
+// function humBtn(){
+//     if(humlinkBtn.style.display === "block"){
+//         humlinkBtn = "none";
+//     }else{
+//         humlinkBtn = "block";
+//     }
+// }

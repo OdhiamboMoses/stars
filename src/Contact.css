@@ -1,6 +1,73 @@
 .contact {
-    height: 91vh;
+    height: 100vh;
     background-color: antiquewhite;
     padding: 16px;
     background-image: url(https://source.unsplash.com/random);
+}
+.contact-body {
+    height: 480px;
+    width: 75%;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.left-side{
+    background-color: antiquewhite;
+    background-image: url(https://images.unsplash.com/photo-1716872491897-078d9b89be49?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height:100%;
+    width: 55%;
+}
+.right-side{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    padding: 2%;
+}
+.right-side form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.right-side>form h3{
+    text-align: center;
+}
+.right-side input{
+    height: 35px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.right-side textarea{
+    height: 70px;
+    font-size: larger;
+}
+.right-side input:hover{
+    border: 1px solid orange;
+}
+.right-side input :active{
+    border: 3px solid orange;
+}
+.right-side textarea:hover{
+    border: 1px solid orange;
+}
+@media (max-width:870px){
+    .left-side{
+        display: none;
+    }
+    .right-side{
+        width: 100%;
+        padding: 20px;
+    }
+    .right-side input{
+        width: 100%;
+    }
+    .right-side textarea{
+        width: 100%;
+    }
 }
