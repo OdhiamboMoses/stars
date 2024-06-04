@@ -4,7 +4,7 @@ import './Button.css';
 function Button(props){
     return (
     <>
-        <button>
+        <button onClick={props.bioFunction}>
             {props.text}
         </button>
     </>
