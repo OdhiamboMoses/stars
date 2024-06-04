@@ -14,7 +14,7 @@ export default function About(){
                     </p>
                     <Button text="More"/>
                 </div>
-                <img src="https://images.unsplash.com/photo-1716847214553-15c68ce82c94?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                <img src={require("./logo.jpg")} />
             </div>
         </>
     );

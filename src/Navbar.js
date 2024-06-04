@@ -2,6 +2,17 @@ import React from "react";
 import './Navbar.css';
 
 function Navbar(){
+
+    function humBtn(){
+        let humlinkBtn = document.getElementsByClassName("hum-links")[0];
+        let res = window.getComputedStyle(humlinkBtn);
+        if(res.display === "block"){
+            humlinkBtn.style.display = "none";
+        }else{
+            humlinkBtn.style.display = "block";
+        }
+    }
+    
     return(
         <nav>
             <h2>County <span>Government</span></h2>
@@ -14,7 +25,7 @@ function Navbar(){
                 </ul>
             </div>
             <div className="hum-icon">
-                <span className="hum"><i className="fa-solid fa-bars"></i></span>
+                <span className="hum" onClick={humBtn}><i className="fa-solid fa-bars"></i></span>
                 <div className="hum-links">
                     <ul>
                         <li><a href="./">Home</a></li>
@@ -30,12 +41,3 @@ function Navbar(){
 
 export default Navbar;
 
-// let humlinkBtn = document.getElementsByClassName("hum-links");
-
-// function humBtn(){
-//     if(humlinkBtn.style.display === "block"){
-//         humlinkBtn = "none";
-//     }else{
-//         humlinkBtn = "block";
-//     }
-// }
