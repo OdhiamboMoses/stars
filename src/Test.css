@@ -1,0 +1,43 @@
+.caboo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.foocards {
+    background-color: whitesmoke;
+    width: 350px;
+    height: 370px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.card-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.test-cont h2{
+    text-align: center;
+    margin: 4%;
+}
+.foocards img{
+    height: 80px;
+    width: 80px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    padding: 16px;
+}
+button {
+    width: 80px;
+    padding: 16px;
+    border-radius: 15px;
+    background-color: green;
+}
